@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.withered.lostinfinity.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ShulkerBulletEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SSS",
+    "T T",
+    "TTT"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "T": {
+      "item": "lostinfinity:perfect_pearl"
+    }
+  },
+  "result": {
+    "id": "lostinfinity:elara_necklace",
+    "count": 1
+  }
+}

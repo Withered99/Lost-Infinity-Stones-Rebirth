@@ -1,0 +1,19 @@
+{
+  "itemgroup.lost_infinity_stones": "Lost Infinity Stones Rebirth",
+
+  "item.lostinfinity.celestial_pickaxe": "Celestial Miner's Pickaxe",
+  "item.lostinfinity.celestial_diamond": "Celestial Diamond",
+  "item.lostinfinity.deviant_ender_pearl": "Deviant Ender Pearl",
+  "item.lostinfinity.deviant_shulker_shell": "Deviant Shulker Shell",
+  "item.lostinfinity.perfect_pearl": "Perfect Pearl",
+  "item.lostinfinity.elara_necklace": "Elara's Necklace",
+  "item.lostinfinity.map_duality": "Ancient Celestial Map",
+  "item.lostinfinity.stone_duality": "Lost Stone of %s",
+  "item.lostinfinity.stone_duality_contained": "Contained Gem of %s",
+
+  "item.lostinfinity.deviant_enderman_spawn_egg": "Deviant Enderman Spawn Egg",
+  "entity.lostinfinity.deviant_enderman": "Deviant Enderman",
+
+  "jei.lostinfinity.celestial_diamond.description": "Found with a 5% chance from mining diamond ore with a Celestial Miner's Pickaxe.",
+  "jei.lostinfinity.deviant_enderman_spawn_egg.description": "Spawns wit ha 5% chance to spawn when killing endermen"
+}

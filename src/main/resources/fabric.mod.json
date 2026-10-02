@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lostinfinity",
+	"version": "${version}",
+	"name": "Lost Infinity Stones Rebirth",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lostinfinity/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.withered.lostinfinity.LostInfinityStonesRebirth"
+		],
+        "client": [
+          "net.withered.lostinfinity.LostInfinityStonesRebirthClient"
+        ],
+		"fabric-datagen": [
+			"net.withered.lostinfinity.LostInfinityStonesRebirthDataGenerator"
+		],
+        "jei_mod_plugin": [
+          "net.withered.lostinfinity.compat.jei.JeiDescriptionPlugin"
+        ]
+	},
+	"mixins": [
+		"lostinfinity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SSS",
+    "STS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "T": {
+      "item": "lostinfinity:deviant_ender_pearl"
+    }
+  },
+  "result": {
+    "id": "lostinfinity:perfect_pearl",
+    "count": 1
+  }
+}

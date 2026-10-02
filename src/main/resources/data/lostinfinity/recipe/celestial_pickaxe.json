@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "KSK",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:ender_eye"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    },
+    "K": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "lostinfinity:celestial_pickaxe",
+    "count": 1
+  }
+}
