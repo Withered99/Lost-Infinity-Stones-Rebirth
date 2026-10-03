@@ -69,8 +69,8 @@ public class ConvergenceBladesItem extends SwordItem {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List tooltip, TooltipType type) {
         tooltip.add(Text.literal("A weapon that switches sides when you attack.").formatted(Formatting.GOLD));
-        tooltip.add(Text.literal("Blade of Wind: Sends you and the target flying into the sky.").formatted(Formatting.AQUA));
-        tooltip.add(Text.literal("Blade of Treachery: Kills targets over 100 height.").formatted(Formatting.RED));
+        tooltip.add(Text.literal("Blade of Destiny: All nearby entities are pulled into the air with you.").formatted(Formatting.GREEN));
+        tooltip.add(Text.literal("Blade of Ultimatum: Kills all nearby targets over 100 height.").formatted(Formatting.RED));
 
         super.appendTooltip(stack, context, tooltip, type);
     }
