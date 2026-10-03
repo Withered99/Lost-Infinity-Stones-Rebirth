@@ -20,6 +20,7 @@ public class LostInfinityStonesRebirthClient implements ClientModInitializer {
         EntityRendererRegistry.register(ModEntities.DEVIANT_ENDERMAN, DeviantEndermanRenderer::new);
         EntityRendererRegistry.register(ModEntities.DEVIANT_SHULKER, DeviantShulkerRenderer::new);
         EntityRendererRegistry.register(ModEntities.DEVIANT_SKYWORM, DeviantSkywormRenderer::new);
+        EntityRendererRegistry.register(ModEntities.DEVIANT_BEAR, DeviantBearRenderer::new);
 
         ModelPredicateProviderRegistry.register(
                 ModItems.DUALITY_BLADES,

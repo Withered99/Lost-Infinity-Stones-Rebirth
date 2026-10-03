@@ -13,6 +13,7 @@ import net.minecraft.entity.passive.PolarBearEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.world.biome.BiomeKeys;
 import net.withered.lostinfinity.entity.ModEntities;
+import net.withered.lostinfinity.entity.custom.DeviantBearEntity;
 import net.withered.lostinfinity.entity.custom.DeviantEndermanEntity;
 import net.withered.lostinfinity.entity.custom.DeviantShulkerEntity;
 
@@ -26,6 +27,9 @@ public class ModEntitySpawns {
                 }
                 if (entity instanceof ShulkerEntity && !(entity instanceof DeviantShulkerEntity)) {
                     trySpawnDeviant(serverWorld, entity, ModEntities.DEVIANT_SHULKER, 0.05F);
+                }
+                if (entity instanceof PolarBearEntity && !(entity instanceof DeviantBearEntity)) {
+                    trySpawnDeviant(serverWorld, entity, ModEntities.DEVIANT_BEAR, 0.05F);
                 }
             }
         });

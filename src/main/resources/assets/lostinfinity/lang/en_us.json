@@ -1,25 +1,44 @@
 {
-  "itemgroup.lost_infinity_stones": "Lost Infinity Stones Rebirth",
+  "itemgroup.lost_infinity_stones": "Lost Infinity Stones - Stones",
+  "itemgroup.lost_infinity_stones_weapons": "Lost Infinity Stones - Weapons",
+  "itemgroup.lost_infinity_stones_deviants": "Lost Infinity Stones - Deviants",
+  "itemgroup.lost_infinity_stones_maps": "Lost Infinity Stones - Maps",
+  "itemgroup.lost_infinity_stones_misc": "Lost Infinity Stones - Misc",
+  "itemgroup.lost_infinity_stones_wip": "Lost Infinity Stones - WIP",
 
   "item.lostinfinity.celestial_pickaxe": "Celestial Miner's Pickaxe",
   "item.lostinfinity.celestial_diamond": "Celestial Diamond",
+  "item.lostinfinity.celestial_iron": "Celestial Iron",
+
+  "item.lostinfinity.map_duality": "Ancient Celestial Map",
+  "item.lostinfinity.map_aspiration": "Ancient Celestial Map",
+
   "item.lostinfinity.deviant_ender_pearl": "Deviant Ender Pearl",
   "item.lostinfinity.deviant_shulker_shell": "Deviant Shulker Shell",
-  "item.lostinfinity.perfect_pearl": "Perfect Pearl",
-  "item.lostinfinity.elara_necklace": "Elara's Necklace",
-  "item.lostinfinity.map_duality": "Ancient Celestial Map",
-  "item.lostinfinity.stone_duality": "Lost Stone of %s",
-  "item.lostinfinity.stone_duality_contained": "Contained Gem of %s",
+  "item.lostinfinity.deviant_bear_hide": "Deviant Bear Hide",
+
   "item.lostinfinity.skyworm_tooth": "Skyworm Tooth",
   "item.lostinfinity.unpowered_blade": "Unpowered Blade",
+  "item.lostinfinity.elara_necklace": "Elara's Necklace",
+  "item.lostinfinity.perfect_pearl": "Perfect Pearl",
+
+  "item.lostinfinity.stone_duality_contained": "Contained Gem of %s",
+  "item.lostinfinity.stone_aspiration_contained": "Contained Gem of %s",
+
+  "item.lostinfinity.stone_aspiration": "Lost Stone of %s",
+  "item.lostinfinity.stone_duality": "Lost Stone of %s",
+
   "item.lostinfinity.duality_blades": "Blades of %s",
+  "item.lostinfinity.skyverge": "The %s",
 
   "item.lostinfinity.deviant_enderman_spawn_egg": "Deviant Enderman Spawn Egg",
   "item.lostinfinity.deviant_shulker_spawn_egg": "Deviant Shulker Spawn Egg",
   "item.lostinfinity.deviant_skyworm_spawn_egg": "Deviant Skyworm Spawn Egg",
+  "item.lostinfinity.deviant_bear_spawn_egg": "Deviant Bear Spawn Egg",
   "entity.lostinfinity.deviant_enderman": "Deviant Enderman",
   "entity.lostinfinity.deviant_shulker": "Deviant Shulker",
   "entity.lostinfinity.deviant_skyworm": "Deviant Skyworm",
+  "entity.lostinfinity.deviant_bear": "Deviant Bear",
 
   "jei.lostinfinity.celestial_diamond.description": "Found with a 5% chance from mining diamond ore with a Celestial Miner's Pickaxe.",
   "jei.lostinfinity.deviant_enderman_spawn_egg.description": "Spawns wit ha 5% chance to spawn when killing endermen"

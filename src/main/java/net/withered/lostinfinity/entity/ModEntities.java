@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.Heightmap;
 import net.withered.lostinfinity.LostInfinityStonesRebirth;
+import net.withered.lostinfinity.entity.custom.DeviantBearEntity;
 import net.withered.lostinfinity.entity.custom.DeviantEndermanEntity;
 import net.withered.lostinfinity.entity.custom.DeviantShulkerEntity;
 import net.withered.lostinfinity.entity.custom.DeviantSkywormEntity;
@@ -30,6 +31,11 @@ public class ModEntities {
     public static final EntityType<DeviantSkywormEntity> DEVIANT_SKYWORM = Registry.register(Registries.ENTITY_TYPE,
             Identifier.of(LostInfinityStonesRebirth.MOD_ID, "deviant_skyworm"),
             EntityType.Builder.create(DeviantSkywormEntity::new, SpawnGroup.CREATURE)
+                    .dimensions(1f, 1f).build());
+
+    public static final EntityType<DeviantBearEntity> DEVIANT_BEAR = Registry.register(Registries.ENTITY_TYPE,
+            Identifier.of(LostInfinityStonesRebirth.MOD_ID, "deviant_bear"),
+            EntityType.Builder.create(DeviantBearEntity::new, SpawnGroup.MISC)
                     .dimensions(1f, 1f).build());
 
     public  static void registerModEntities() {

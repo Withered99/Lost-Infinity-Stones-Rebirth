@@ -36,6 +36,19 @@ public class CelestialPickaxeItem extends PickaxeItem {
             }
 
         }
+        if (!world.isClient() && (state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DEEPSLATE_IRON_ORE))) {
+            if (world.random.nextFloat() < 0.05f) {
+                ItemEntity stringEntity = new ItemEntity(
+                        world,
+                        pos.getX() + 0.5D,
+                        pos.getY() + 0.5D,
+                        pos.getZ() + 0.5D,
+                        new ItemStack(ModItems.CELESTIAL_IRON)
+                );
+                world.spawnEntity(stringEntity);
+            }
+
+        }
         return super.postMine(stack, world, state, pos, miner);
     }
 

@@ -26,6 +26,7 @@ repositories {
             includeGroup("software.bernie.geckolib")
         }
     }
+    maven { url 'https://maven.blamejared.com' }
 }
 
 fabricApi {
@@ -42,6 +43,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
     modCompileOnly "mezz.jei:jei-1.21.1-fabric-api:${project.jei_version}"
+
+    //modImplementation "maven.modrinth:patchouli:${project.patchouli_version}"
 }
 
 processResources {

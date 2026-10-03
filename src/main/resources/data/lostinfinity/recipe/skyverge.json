@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " BU",
+    " IB",
+    "I  "
+  ],
+  "key": {
+    "B": {
+      "item": "lostinfinity:deviant_bear_hide"
+    },
+    "U": {
+      "item": "lostinfinity:stone_aspiration_contained"
+    },
+    "I": {
+      "item": "lostinfinity:celestial_iron"
+    }
+  },
+  "result": {
+    "id": "lostinfinity:skyverge",
+    "count": 1
+  }
+}
