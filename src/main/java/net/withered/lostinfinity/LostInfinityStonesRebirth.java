@@ -13,6 +13,7 @@ import net.minecraft.village.VillagerProfession;
 import net.withered.lostinfinity.entity.ModEntities;
 import net.withered.lostinfinity.entity.custom.DeviantEndermanEntity;
 import net.withered.lostinfinity.entity.custom.DeviantShulkerEntity;
+import net.withered.lostinfinity.entity.custom.DeviantSkywormEntity;
 import net.withered.lostinfinity.event.ModEntitySpawns;
 import net.withered.lostinfinity.item.ModItemGroups;
 import net.withered.lostinfinity.item.ModItems;
@@ -39,6 +40,7 @@ public class LostInfinityStonesRebirth implements ModInitializer {
 
         FabricDefaultAttributeRegistry.register(ModEntities.DEVIANT_ENDERMAN, DeviantEndermanEntity.createAttributes());
         FabricDefaultAttributeRegistry.register(ModEntities.DEVIANT_SHULKER, DeviantShulkerEntity.createAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.DEVIANT_SKYWORM, DeviantSkywormEntity.createAttributes());
 	}
 
 	public static Identifier id(String path) {

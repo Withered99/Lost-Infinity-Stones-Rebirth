@@ -5,8 +5,8 @@ import net.minecraft.client.render.entity.ShulkerEntityRenderer;
 import net.minecraft.entity.mob.ShulkerEntity;
 import net.minecraft.util.Identifier;
 
-public class DeviantShulkerEntityRenderer extends ShulkerEntityRenderer {
-    public DeviantShulkerEntityRenderer(EntityRendererFactory.Context context) {
+public class DeviantShulkerRenderer extends ShulkerEntityRenderer {
+    public DeviantShulkerRenderer(EntityRendererFactory.Context context) {
         super(context);
     }
 

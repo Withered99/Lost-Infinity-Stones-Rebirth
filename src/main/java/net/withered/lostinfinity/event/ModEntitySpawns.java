@@ -14,6 +14,7 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.world.biome.BiomeKeys;
 import net.withered.lostinfinity.entity.ModEntities;
 import net.withered.lostinfinity.entity.custom.DeviantEndermanEntity;
+import net.withered.lostinfinity.entity.custom.DeviantShulkerEntity;
 
 public class ModEntitySpawns {
 
@@ -23,24 +24,26 @@ public class ModEntitySpawns {
                 if (entity instanceof EndermanEntity && !(entity instanceof DeviantEndermanEntity)) {
                     trySpawnDeviant(serverWorld, entity, ModEntities.DEVIANT_ENDERMAN, 0.05F);
                 }
+                if (entity instanceof ShulkerEntity && !(entity instanceof DeviantShulkerEntity)) {
+                    trySpawnDeviant(serverWorld, entity, ModEntities.DEVIANT_SHULKER, 0.05F);
+                }
             }
         });
 
-        //BiomeModifications.addSpawn(
-        //        BiomeSelectors.includeByKey(
-        //                BiomeKeys.WINDSWEPT_HILLS,
-        //                BiomeKeys.WINDSWEPT_FOREST,
-        //                BiomeKeys.WINDSWEPT_GRAVELLY_HILLS
-        //        ),
-        //        SpawnGroup.MONSTER,
-        //        ModEntities.DEVIANT_SKYWORM,
-        //        2,
-        //        1,
-        //        1
-        //);
+        BiomeModifications.addSpawn(
+                BiomeSelectors.includeByKey(
+                        BiomeKeys.WINDSWEPT_HILLS,
+                        BiomeKeys.WINDSWEPT_FOREST,
+                        BiomeKeys.WINDSWEPT_GRAVELLY_HILLS
+                ),
+                SpawnGroup.CREATURE,
+                ModEntities.DEVIANT_SKYWORM,
+                100,
+                1,
+                2
+        );
     }
 
-    @SuppressWarnings("rawtypes")
     private static void trySpawnDeviant(ServerWorld world, LivingEntity deadEntity, EntityType typeToSpawn, float chance) {
         if (world.getRandom().nextFloat() < chance) {
             LivingEntity spawnedEntity = (LivingEntity) typeToSpawn.create(

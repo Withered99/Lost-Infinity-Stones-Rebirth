@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " S ",
+    "DTD",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "lostinfinity:deviant_shulker_shell"
+    },
+    "T": {
+      "item": "lostinfinity:stone_duality"
+    },
+    "D": {
+      "item": "lostinfinity:celestial_diamond"
+    }
+  },
+  "result": {
+    "id": "lostinfinity:stone_duality_contained",
+    "count": 1
+  }
+}

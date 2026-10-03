@@ -12,7 +12,9 @@
   "item.lostinfinity.stone_duality_contained": "Contained Gem of %s",
 
   "item.lostinfinity.deviant_enderman_spawn_egg": "Deviant Enderman Spawn Egg",
+  "item.lostinfinity.deviant_shulker_spawn_egg": "Deviant Shulker Spawn Egg",
   "entity.lostinfinity.deviant_enderman": "Deviant Enderman",
+  "entity.lostinfinity.deviant_shulker": "Deviant Shulker",
 
   "jei.lostinfinity.celestial_diamond.description": "Found with a 5% chance from mining diamond ore with a Celestial Miner's Pickaxe.",
   "jei.lostinfinity.deviant_enderman_spawn_egg.description": "Spawns wit ha 5% chance to spawn when killing endermen"
