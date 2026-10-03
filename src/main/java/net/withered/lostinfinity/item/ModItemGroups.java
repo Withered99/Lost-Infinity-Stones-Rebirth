@@ -17,15 +17,19 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.CELESTIAL_PICKAXE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CELESTIAL_PICKAXE);
                         entries.add(ModItems.CELESTIAL_DIAMOND);
-                        entries.add(ModItems.DEVIANT_ENDERMAN_SPAWN_EGG);
-                        entries.add(ModItems.DEVIANT_SHULKER_SPAWN_EGG);
                         entries.add(ModItems.DEVIANT_SHULKER_SHELL);
                         entries.add(ModItems.DEVIANT_ENDER_PEARL);
+                        entries.add(ModItems.DEVIANT_ENDERMAN_SPAWN_EGG);
+                        entries.add(ModItems.DEVIANT_SHULKER_SPAWN_EGG);
+                        entries.add(ModItems.DEVIANT_SKYWORM_SPAWN_EGG);
                         entries.add(ModItems.PERFECT_PEARL);
                         entries.add(ModItems.ELARA_NECKLACE);
+                        entries.add(ModItems.SKYWORM_TOOTH);
+                        entries.add(ModItems.UNPOWERED_BLADE);
                         entries.add(ModItems.MAP_DUALITY);
                         entries.add(ModItems.STONE_DUALITY);
                         entries.add(ModItems.STONE_DUALITY_CONTAINED);
+                        entries.add(ModItems.DUALITY_BLADES);
                     }).build());
     public static void registerItemGroups() {
         LostInfinityStonesRebirth.LOGGER.info("Registering Item Groups for " + LostInfinityStonesRebirth.MOD_ID);

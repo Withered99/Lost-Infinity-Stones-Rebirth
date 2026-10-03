@@ -1,11 +1,14 @@
-// 1.21.1	2026-10-02T13:39:15.1102932	Lost Infinity Stones Rebirth/Model Definitions
-c9ab8623714fb05b595fc2fd5c25106bd7c4d08c assets\lostinfinity\models\item\elara_necklace.json
-d660db5fc348f8ca5f7c88490262a635f8408c3b assets\lostinfinity\models\item\stone_duality.json
-38b6843a861935610a76e9368f587eca53960cb7 assets\lostinfinity\models\item\deviant_shulker_shell.json
+// 1.21.1	2026-10-02T17:56:48.4881964	Lost Infinity Stones Rebirth/Model Definitions
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\lostinfinity\models\item\deviant_shulker_spawn_egg.json
-123a14979664eb06d9c7494cf2b1360ed04d3271 assets\lostinfinity\models\item\celestial_diamond.json
 33b3db0a3186e048e4756d65c28814e1f9f82638 assets\lostinfinity\models\item\perfect_pearl.json
+123a14979664eb06d9c7494cf2b1360ed04d3271 assets\lostinfinity\models\item\celestial_diamond.json
 503dc4a40f81c3b97e4ae220d2c45e530411feb3 assets\lostinfinity\models\item\deviant_ender_pearl.json
 9a96ef02276b2e3bccc9227befe2a09a8ed4185a assets\lostinfinity\models\item\stone_duality_contained.json
 85cbda93fc7f6c2b3fc979e73add1db388d0c4a9 assets\lostinfinity\models\item\celestial_pickaxe.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\lostinfinity\models\item\deviant_skyworm_spawn_egg.json
+c9ab8623714fb05b595fc2fd5c25106bd7c4d08c assets\lostinfinity\models\item\elara_necklace.json
+d660db5fc348f8ca5f7c88490262a635f8408c3b assets\lostinfinity\models\item\stone_duality.json
+38b6843a861935610a76e9368f587eca53960cb7 assets\lostinfinity\models\item\deviant_shulker_shell.json
+d3ebfa8f17d917adb5af3b0fc2e57915ad90c318 assets\lostinfinity\models\item\unpowered_blade.json
+7d950faebae574d935f3f4015fd407a7d136a09f assets\lostinfinity\models\item\skyworm_tooth.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\lostinfinity\models\item\deviant_enderman_spawn_egg.json

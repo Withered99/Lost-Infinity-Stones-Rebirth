@@ -3,15 +3,15 @@
 	"id": "lostinfinity",
 	"version": "${version}",
 	"name": "Lost Infinity Stones Rebirth",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "When powerful lost items return.",
 	"authors": [
-		"Me!"
+		"Withered_"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/lostinfinity/icon.png",
 	"environment": "*",
 	"entrypoints": {

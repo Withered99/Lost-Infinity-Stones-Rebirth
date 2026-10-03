@@ -10,11 +10,16 @@
   "item.lostinfinity.map_duality": "Ancient Celestial Map",
   "item.lostinfinity.stone_duality": "Lost Stone of %s",
   "item.lostinfinity.stone_duality_contained": "Contained Gem of %s",
+  "item.lostinfinity.skyworm_tooth": "Skyworm Tooth",
+  "item.lostinfinity.unpowered_blade": "Unpowered Blade",
+  "item.lostinfinity.duality_blades": "Blades of %s",
 
   "item.lostinfinity.deviant_enderman_spawn_egg": "Deviant Enderman Spawn Egg",
   "item.lostinfinity.deviant_shulker_spawn_egg": "Deviant Shulker Spawn Egg",
+  "item.lostinfinity.deviant_skyworm_spawn_egg": "Deviant Skyworm Spawn Egg",
   "entity.lostinfinity.deviant_enderman": "Deviant Enderman",
   "entity.lostinfinity.deviant_shulker": "Deviant Shulker",
+  "entity.lostinfinity.deviant_skyworm": "Deviant Skyworm",
 
   "jei.lostinfinity.celestial_diamond.description": "Found with a 5% chance from mining diamond ore with a Celestial Miner's Pickaxe.",
   "jei.lostinfinity.deviant_enderman_spawn_egg.description": "Spawns wit ha 5% chance to spawn when killing endermen"

@@ -32,9 +32,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DEVIANT_SHULKER_SHELL, Models.GENERATED);
         itemModelGenerator.register(ModItems.STONE_DUALITY, Models.GENERATED);
         itemModelGenerator.register(ModItems.STONE_DUALITY_CONTAINED, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SKYWORM_TOOTH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.UNPOWERED_BLADE, Models.GENERATED);
         itemModelGenerator.register(ModItems.DEVIANT_ENDERMAN_SPAWN_EGG ,
                 new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
         itemModelGenerator.register(ModItems.DEVIANT_SHULKER_SPAWN_EGG ,
+                new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
+        itemModelGenerator.register(ModItems.DEVIANT_SKYWORM_SPAWN_EGG ,
                 new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
     }
 }
