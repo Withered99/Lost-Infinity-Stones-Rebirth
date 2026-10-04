@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "lostinfinity:duality_blades"
+    },
+    {
+      "item": "lostinfinity:skyverge"
+    }
+  ],
+  "result": {
+    "id": "lostinfinity:convergence_blades",
+    "count": 1
+  }
+}
