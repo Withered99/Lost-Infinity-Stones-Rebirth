@@ -23,7 +23,7 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class ConvergenceBladesItem extends SwordItem {
-    private static final String MODE_KEY = "blade";
+    private static final String MODE_KEY = "blade2";
 
     public ConvergenceBladesItem(ToolMaterial toolMaterial, Settings settings) {
         super(toolMaterial, settings);

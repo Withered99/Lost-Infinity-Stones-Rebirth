@@ -30,5 +30,13 @@ public class LostInfinityStonesRebirthClient implements ClientModInitializer {
                     return nbtComponent.copyNbt().getBoolean("blade") ? 1.0F : 0.0F;
                 }
         );
+        ModelPredicateProviderRegistry.register(
+                ModItems.CONVERGENCE_BLADES,
+                Identifier.of("lostinfinity", "blade2"),
+                (stack, world, entity, seed) -> {
+                    NbtComponent nbtComponent = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT);
+                    return nbtComponent.copyNbt().getBoolean("blade2") ? 1.0F : 0.0F;
+                }
+        );
     }
 }

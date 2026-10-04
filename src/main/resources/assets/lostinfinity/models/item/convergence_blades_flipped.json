@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lostinfinity:item/duality_blades"
+    "layer0": "lostinfinity:item/convergence_blades"
   },
   "display": {
     "thirdperson_righthand": {

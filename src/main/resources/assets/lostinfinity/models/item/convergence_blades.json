@@ -1,14 +1,14 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lostinfinity:item/duality_blades"
+    "layer0": "lostinfinity:item/convergence_blades"
   },
   "overrides": [
     {
       "predicate": {
-        "lostinfinity:blade": 1
+        "lostinfinity:blade2": 1
       },
-      "model": "lostinfinity:item/duality_blades_flipped"
+      "model": "lostinfinity:item/convergence_blades_flipped"
     }
   ],
   "display": {

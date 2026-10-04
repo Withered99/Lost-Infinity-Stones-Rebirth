@@ -59,12 +59,12 @@ public class ModItemGroups {
                         entries.add(ModItems.CELESTIAL_DIAMOND);
                         entries.add(ModItems.CELESTIAL_IRON);
                     }).build());
-    public static final ItemGroup LOST_INFINITY_STONES_WIP_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(LostInfinityStonesRebirth.MOD_ID, "lost_infinity_stones_wip"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.lost_infinity_stones_wip"))
-                    .icon(() -> new ItemStack(ModItems.CONVERGENCE_BLADES)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.CONVERGENCE_BLADES);
-                    }).build());
+    //public static final ItemGroup LOST_INFINITY_STONES_WIP_GROUP = Registry.register(Registries.ITEM_GROUP,
+    //        Identifier.of(LostInfinityStonesRebirth.MOD_ID, "lost_infinity_stones_wip"),
+    //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup.lost_infinity_stones_wip"))
+    //                .icon(() -> new ItemStack(ModItems.CONVERGENCE_BLADES)).entries((displayContext, entries) -> {
+    //                    entries.add(ModItems.CONVERGENCE_BLADES);
+    //                }).build());
     public static void registerItemGroups() {
         LostInfinityStonesRebirth.LOGGER.info("Registering Item Groups for " + LostInfinityStonesRebirth.MOD_ID);
     }
