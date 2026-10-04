@@ -1,0 +1,8 @@
+{
+  "name": "Echoes of Infinity",
+  "landing_text": "An ancient book. You can hear voices whispering...",
+  "version": 1,
+  "creative_tab": "lostinfinity:lost_infinity_stones_misc",
+  "use_resource_pack": true,
+  "show_progress": false
+}

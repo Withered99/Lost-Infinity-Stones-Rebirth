@@ -1,0 +1,18 @@
+{
+  "name": "Blades of Convergence",
+  "icon": "lostinfinity:convergence_blades",
+  "category": "lostinfinity:start_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "First up is the Blades of Convergence, a weapon that switches sides every hit just like the Blades of Duality. it is crafted by combining The Blades of Duality and The Skyverge. The first side, throws you and all nearby entities into the air. The second side, instantly kills all nearby entities if you are over Y = 100."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "lostinfinity:convergence_blades"
+      }
+    }
+  ]
+}

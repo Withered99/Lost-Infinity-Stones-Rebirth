@@ -27,6 +27,9 @@ repositories {
         }
     }
     maven { url 'https://maven.blamejared.com' }
+    maven {
+        url = "https://maven.modmuss50.me/"
+    }
 }
 
 fabricApi {
@@ -44,7 +47,8 @@ dependencies {
 
     modCompileOnly "mezz.jei:jei-1.21.1-fabric-api:${project.jei_version}"
 
-    //modImplementation "maven.modrinth:patchouli:${project.patchouli_version}"
+    modImplementation "maven.modrinth:patchouli:${project.patchouli_version}"
+    modImplementation "me.zeroeightsix:fiber:${fiber_version}"
 }
 
 processResources {

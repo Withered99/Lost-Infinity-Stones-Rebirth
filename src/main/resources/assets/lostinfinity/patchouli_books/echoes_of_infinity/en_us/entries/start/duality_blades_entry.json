@@ -1,0 +1,18 @@
+{
+  "name": "Blades of Duality",
+  "icon": "lostinfinity:duality_blades",
+  "category": "lostinfinity:start_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "First up is the Blades of Duality, a weapon that switches sides every hit. The first side, throws you and your target up into the air. The second side, instantly kills your target if you are over Y = 100."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "lostinfinity:duality_blades"
+      }
+    }
+  ]
+}

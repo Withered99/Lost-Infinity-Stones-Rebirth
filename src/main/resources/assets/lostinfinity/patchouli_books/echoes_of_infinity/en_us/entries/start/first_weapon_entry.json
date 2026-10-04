@@ -1,0 +1,12 @@
+{
+  "name": "First Weapon",
+  "icon": "lostinfinity:celestial_pickaxe",
+  "category": "lostinfinity:start_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Welcome to a world with lost infinity! Firstly, you will not get to see the content of this mod for quite a while (after the end). But, once you do, you will want to make your first Lost Infinity Weapon. The two best starter weapons are the Blades of Duality or The Skyverge."
+    }
+  ]
+}
