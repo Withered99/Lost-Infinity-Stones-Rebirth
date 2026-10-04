@@ -42,7 +42,7 @@ public class ModItems {
     public static final Item UNPOWERED_BLADE = registerItem("unpowered_blade", new Item(new Item.Settings()));
 
     public static final Item DUALITY_BLADES = registerItem("duality_blades", new DualityBladesItem(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 0, -2.4f))));
-    public static final Item SKYVERGE = registerItem("skyverge", new SkyvergeItem(new Item.Settings()));
+    public static final Item SKYVERGE = registerItem("skyverge", new SkyvergeItem(new Item.Settings().maxCount(1)));
 
     public static final Item STONE_DUALITY_CONTAINED = registerItem("stone_duality_contained", new DualityStoneContainedItem(new Item.Settings()));
     public static final Item STONE_ASPIRATION_CONTAINED = registerItem("stone_aspiration_contained", new AspirationStoneContainedItem(new Item.Settings()));

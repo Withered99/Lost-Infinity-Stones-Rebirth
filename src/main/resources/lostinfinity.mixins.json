@@ -3,7 +3,8 @@
 	"package": "net.withered.lostinfinity.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ShulkerBulletEntityMixin"
+		"ShulkerBulletEntityMixin",
+		"EntityAttributesMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
