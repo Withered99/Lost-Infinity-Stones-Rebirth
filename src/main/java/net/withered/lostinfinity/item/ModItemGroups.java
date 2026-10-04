@@ -26,6 +26,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.DUALITY_BLADES)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SKYVERGE);
                         entries.add(ModItems.DUALITY_BLADES);
+                        entries.add(ModItems.CONVERGENCE_BLADES);
                     }).build());
     public static final ItemGroup LOST_INFINITY_STONES_DEVIANTS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(LostInfinityStonesRebirth.MOD_ID, "lost_infinity_stones_deviants"),
